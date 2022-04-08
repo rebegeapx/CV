@@ -1,0 +1,99 @@
+*{
+    padding: 0;     margin: 0;      box-sizing: border-box;
+}
+.inicio{
+width: 100%;
+height: 7vh;
+background-color: #F8DDA9;
+display:flex;
+justify-content: right;
+}
+p{font-size: 130%;}
+.inicio1{       padding: 1% 1% 1%;      font-family: 'Rokkitt', serif;     }
+.desc{
+    width: 100%;
+    height: 32vh;
+    background-color: #FBEDC9;;
+    display:flex;
+    font-family: 'Rokkitt', serif;
+    justify-content: left;
+    padding-top: 2vh;
+}
+.desc1{
+    width: 55%;     height: 28vh;       padding-left: 13%;   padding-top: 5vh;   }
+.name{
+    width: 5%;      height: 5vh;        filter:brightness(1.1);     }
+.desc2{
+    width: 45%;
+    height: 28vh;
+    border-bottom: 2%;
+   /* padding-top: 1%;*/
+}
+.image-profile{
+    border-radius: 50%;
+    width: 30%;
+    height: 28vh;
+    padding-left: 2%;
+}
+
+
+#conteItemsCarrusel{
+    height: 35vh;
+    overflow: hidden;*/
+}
+
+.itemCarrusel{
+    height: 35vh;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+    height: 35vh;
+}
+.imgscar{
+    width: 87%;
+    height: 35vh;
+    padding-left:  17%;
+}
+.flechasCarrusel{
+    position: absolute;
+    top:0;    /* cambiar*/
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+#tarjetaCarrusel-1{background-color: #FBEDC9;}
+#tarjetaCarrusel-2{background-color: #FBEDC9;}
+#tarjetaCarrusel-3{background-color: #FBEDC9;}
+
+#tarjetaCarrusel-4{
+    background-color: #FBEDC9;;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.enc{ background-color: #FBEDC9; width: 100%; height: 12vh; display: flex; justify-content: left; padding-left: 13%; padding-top: 2%;}
+.enc1{font-family: 'Rokkitt', serif; font-size: 150%; height: 13vh; padding-top: 3%;}
+
+.contacto{
+    text-decoration: none;
+    text-align: center;
+    background-color: #F8DDA9;
+    font-family: 'Rokkitt', serif;
+}
+
+
+
+
+
+
+
+
+
